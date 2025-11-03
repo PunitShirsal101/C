@@ -320,4 +320,4 @@ gcc number_conversion.c -o number_conversion.exe
 
 ---
 
-**Remember**: Programming is like cooking - follow the recipe (syntax), use the right ingredients (variables), and practice makes perfect! 👨‍🍳
+**Remember**: Programming is like cooking - follow the recipe (syntax), use the right ingredients (variables), and practice makes perfect!
