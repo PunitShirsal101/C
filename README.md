@@ -1,18 +1,6 @@
-# Number System Conversion Program in C
+## C Programming Concepts Explained
 
-This program converts numbers between different number systems: Binary, Decimal, Octal, and Hexadecimal.
-
-## How to Run
-```bash
-gcc number_conversion.c -o number_conversion.exe
-./number_conversion.exe
-```
-
----
-
-## C Programming Concepts Explained (Ultra Simple!)
-
-### 1. **Header Files** 📁
+### 1. **Header Files**
 Think of header files like a toolbox. You include them to use ready-made tools.
 
 ```c
@@ -25,7 +13,7 @@ Think of header files like a toolbox. You include them to use ready-made tools.
 
 ---
 
-### 2. **Variables** 📦
+### 2. **Variables**
 Variables are like boxes that store different types of data.
 
 ```c
@@ -57,7 +45,7 @@ char* decimalToBinary(int decimal)
 
 ---
 
-### 4. **Pointers** 👉
+### 4. **Pointers**
 Pointers are like address labels. Instead of carrying the heavy box, you carry a note that says where the box is.
 
 ```c
@@ -69,7 +57,7 @@ binary = malloc(33);    // "Go to this address to find 33 empty spaces"
 
 ---
 
-### 5. **Memory Management** 🏠
+### 5. **Memory Management**
 Like renting and returning hotel rooms.
 
 ```c
@@ -84,7 +72,7 @@ free(binary);                 // Return the rooms when done
 
 ---
 
-### 6. **Arrays** 📚
+### 6. **Arrays**
 Arrays are like a row of numbered boxes.
 
 ```c
@@ -97,7 +85,7 @@ input[1] = 'B';         // Put 'B' in the second box
 
 ---
 
-### 7. **Loops** 🔄
+### 7. **Loops** 
 Loops repeat the same action multiple times.
 
 ```c
@@ -119,7 +107,7 @@ for (int i = 0; i < 10; i++) {
 
 ---
 
-### 8. **Conditional Statements** 🤔
+### 8. **Conditional Statements**
 Like making decisions based on conditions.
 
 ```c
@@ -136,7 +124,7 @@ if (choice == 1) {
 
 ---
 
-### 9. **Switch Statement** 🎛️
+### 9. **Switch Statement**
 Like a control panel with different buttons.
 
 ```c
@@ -156,7 +144,7 @@ switch (choice) {
 
 ---
 
-### 10. **String Operations** 🧵
+### 10. **String Operations** 
 
 ```c
 strlen(str);           // Count letters in a word
@@ -172,7 +160,7 @@ strcmp(str1, str2);    // Check if two words are the same
 
 ---
 
-### 11. **Input/Output** 📞
+### 11. **Input/Output**
 
 ```c
 printf("Hello World");           // Talk to user (output)
@@ -186,7 +174,7 @@ scanf("%s", text);              // Listen for text input
 
 ---
 
-### 12. **Number Systems Explained** 🔢
+### 12. **Number Systems Explained**
 
 #### **Decimal (Base 10)** - Normal counting
 Uses digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
@@ -206,7 +194,7 @@ Example: A = 10 in decimal, F = 15 in decimal
 
 ---
 
-### 13. **Bitwise Operations** ⚡
+### 13. **Bitwise Operations**
 Working with individual bits (0s and 1s).
 
 ```c
@@ -219,7 +207,7 @@ decimal << 1       // Multiply by 2 (shift bits left)
 
 ---
 
-### 14. **Memory Allocation Functions** 🏗️
+### 14. **Memory Allocation Functions**
 
 ```c
 malloc(size);      // Ask for memory space
@@ -234,7 +222,7 @@ strdup(string);    // Make a copy of text in new memory
 
 ---
 
-### 15. **Function Parameters and Return Values** 📤📥
+### 15. **Function Parameters and Return Values**
 
 ```c
 // Function that takes input and gives output
@@ -255,7 +243,7 @@ void sayHello() {
 
 ---
 
-### 16. **Error Handling** ⚠️
+### 16. **Error Handling**
 
 ```c
 if (octal == NULL) {
@@ -268,7 +256,7 @@ if (octal == NULL) {
 
 ---
 
-## Program Flow Example 🔄
+## Program Flow Example�
 
 1. **Start**: Show menu to user
 2. **Input**: User picks an option (1-7)
@@ -279,7 +267,7 @@ if (octal == NULL) {
 
 ---
 
-## Common Programming Patterns Used 🎯
+## Common Programming Patterns Used
 
 ### **Input Validation**
 ```c
@@ -305,7 +293,7 @@ strcat(result, " World");   // Now it's "Hello World"
 
 ---
 
-## Tips for Beginners 💡
+## Tips for Beginners
 
 1. **Always free what you malloc** - Like returning borrowed items
 2. **Check for NULL pointers** - Like checking if a box is empty before using it
@@ -315,7 +303,7 @@ strcat(result, " World");   // Now it's "Hello World"
 
 ---
 
-## Compilation and Execution 🚀
+## Compilation and Execution
 
 ```bash
 # Compile the program
