@@ -293,16 +293,6 @@ strcat(result, " World");   // Now it's "Hello World"
 
 ---
 
-## Tips for Beginners
-
-1. **Always free what you malloc** - Like returning borrowed items
-2. **Check for NULL pointers** - Like checking if a box is empty before using it
-3. **Use meaningful variable names** - Like labeling your boxes clearly
-4. **Comment your code** - Like leaving notes for future you
-5. **Test with simple inputs first** - Like practicing with easy math before hard math
-
----
-
 ## Compilation and Execution
 
 ```bash
